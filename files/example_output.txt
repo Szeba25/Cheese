@@ -1,0 +1,470 @@
+
+Task description: logreader, file: log1.log
+Result: 
+number of failed logins: 2
+in line 3: user id: 24, problem: logout without login
+in line 5: user id: 17, problem: failed login
+in line 8: user id: -1, problem: invalid log entry type
+in line 10: user id: 13, problem: relogin
+in line 12: user id: -1, problem: invalid user id
+in line 14: user id: -1, problem: invalid user id
+in line 18: user id: 13, problem: logout without login
+in line 19: user id: 25, problem: failed login
+in line 22: user id: 5, problem: stayed logged in at the end
+in line 22: user id: 17, problem: stayed logged in at the end
+
+---------------------------------
+
+Task description: logreader, file: log2.log
+Result: 
+number of failed logins: 13
+in line 336: user id: 630, problem: failed login
+in line 530: user id: 649, problem: failed login
+in line 1611: user id: 308, problem: failed login
+in line 2172: user id: 681, problem: logout without login
+in line 2248: user id: 113, problem: relogin
+in line 3288: user id: 812, problem: failed login
+in line 5017: user id: 765, problem: relogin
+in line 7437: user id: 295, problem: logout without login
+in line 8952: user id: 757, problem: relogin
+in line 10312: user id: 843, problem: logout without login
+in line 14504: user id: 62, problem: relogin
+in line 14619: user id: 843, problem: relogin
+in line 14805: user id: 57, problem: relogin
+in line 15108: user id: 419, problem: relogin
+in line 15195: user id: 179, problem: failed login
+in line 17345: user id: 276, problem: logout without login
+in line 18369: user id: 375, problem: relogin
+in line 24061: user id: 321, problem: relogin
+in line 27468: user id: 918, problem: failed login
+in line 32483: user id: 163, problem: relogin
+in line 37560: user id: -1, problem: invalid user id
+in line 37623: user id: 410, problem: failed login
+in line 38713: user id: -1, problem: invalid log entry type
+in line 42483: user id: 481, problem: relogin
+in line 44670: user id: 53, problem: relogin
+in line 45284: user id: -1, problem: invalid user id
+in line 46523: user id: 982, problem: failed login
+in line 51771: user id: -1, problem: invalid log entry type
+in line 57236: user id: 658, problem: logout without login
+in line 57926: user id: 825, problem: failed login
+in line 65024: user id: 49, problem: failed login
+in line 73538: user id: 395, problem: relogin
+in line 77345: user id: 267, problem: failed login
+in line 80733: user id: -1, problem: invalid log entry type
+in line 81368: user id: -1, problem: invalid log entry type
+in line 85458: user id: -1, problem: invalid user id
+in line 89021: user id: 654, problem: failed login
+in line 89082: user id: -1, problem: invalid log entry type
+in line 90798: user id: 482, problem: failed login
+in line 93309: user id: -1, problem: invalid log entry type
+in line 95188: user id: 994, problem: logout without login
+
+---------------------------------
+
+Task description: fibonacci, number: 38
+Result: 
+39088169
+---------------------------------
+
+Task description: fibonacci, number: 45
+Result: 
+1134903170
+---------------------------------
+
+Task description: speed test, numbers: 1234.567800, 43.560000, operation: *, iterations: 100000000
+Result: 
+264.186400 milliseconds (378.520620 million operations per second)
+---------------------------------
+
+Task description: logreader, file: nosuchlog.log
+Result: 
+Cannot read file
+
+---------------------------------
+
+Task description: logreader, file: log3.log
+Result: 
+number of failed logins: 50
+in line 7808: user id: 9624, problem: failed login
+in line 15915: user id: 336, problem: logout without login
+in line 31457: user id: 6543, problem: relogin
+in line 49769: user id: 3193, problem: logout without login
+in line 71003: user id: 22, problem: failed login
+in line 90376: user id: 9773, problem: relogin
+in line 99692: user id: 5837, problem: relogin
+in line 115468: user id: 841, problem: logout without login
+in line 127553: user id: -1, problem: invalid log entry type
+in line 147478: user id: 344, problem: failed login
+in line 161243: user id: -1, problem: invalid log entry type
+in line 200143: user id: 8575, problem: logout without login
+in line 201220: user id: -1, problem: invalid log entry type
+in line 220045: user id: 7406, problem: logout without login
+in line 227328: user id: 1385, problem: failed login
+in line 228618: user id: -1, problem: invalid log entry type
+in line 276119: user id: 3190, problem: relogin
+in line 287563: user id: 4607, problem: failed login
+in line 287800: user id: 8469, problem: logout without login
+in line 302879: user id: 5797, problem: logout without login
+in line 323855: user id: -1, problem: invalid log entry type
+in line 333840: user id: 2185, problem: relogin
+in line 337958: user id: 2424, problem: logout without login
+in line 341792: user id: 2145, problem: relogin
+in line 352167: user id: 7994, problem: relogin
+in line 405176: user id: 4585, problem: relogin
+in line 420034: user id: -1, problem: invalid log entry type
+in line 434592: user id: 1909, problem: relogin
+in line 436667: user id: 747, problem: relogin
+in line 443828: user id: 6824, problem: relogin
+in line 454635: user id: 116, problem: logout without login
+in line 468688: user id: -1, problem: invalid log entry type
+in line 536948: user id: -1, problem: invalid user id
+in line 548300: user id: 8064, problem: failed login
+in line 557706: user id: -1, problem: invalid log entry type
+in line 566210: user id: 7264, problem: relogin
+in line 585981: user id: -1, problem: invalid user id
+in line 597531: user id: 9767, problem: relogin
+in line 626761: user id: 4476, problem: relogin
+in line 636773: user id: 5699, problem: relogin
+in line 649690: user id: 6813, problem: logout without login
+in line 661323: user id: -1, problem: invalid log entry type
+in line 671194: user id: 2143, problem: logout without login
+in line 700467: user id: -1, problem: invalid user id
+in line 711781: user id: 3596, problem: logout without login
+in line 752675: user id: 4479, problem: failed login
+in line 770505: user id: -1, problem: invalid log entry type
+in line 808096: user id: -1, problem: invalid log entry type
+in line 821015: user id: 2015, problem: failed login
+in line 828421: user id: 3822, problem: logout without login
+in line 835805: user id: -1, problem: invalid log entry type
+in line 840562: user id: 8187, problem: failed login
+in line 857515: user id: 2546, problem: failed login
+in line 898335: user id: 3993, problem: failed login
+in line 903837: user id: 7893, problem: logout without login
+in line 903957: user id: 7023, problem: failed login
+in line 908770: user id: 291, problem: failed login
+in line 921945: user id: 1812, problem: logout without login
+in line 924552: user id: -1, problem: invalid user id
+in line 927140: user id: 9621, problem: relogin
+in line 1007360: user id: 2915, problem: failed login
+in line 1027771: user id: 5200, problem: logout without login
+in line 1035981: user id: 3627, problem: failed login
+in line 1068349: user id: 141, problem: relogin
+in line 1138549: user id: -1, problem: invalid user id
+in line 1147357: user id: 2318, problem: logout without login
+in line 1155574: user id: -1, problem: invalid log entry type
+in line 1162360: user id: 2914, problem: failed login
+in line 1174748: user id: 5274, problem: failed login
+in line 1209534: user id: 2712, problem: failed login
+in line 1214724: user id: 4136, problem: failed login
+in line 1290532: user id: 9868, problem: failed login
+in line 1313714: user id: 6425, problem: relogin
+in line 1319148: user id: 4341, problem: failed login
+in line 1329796: user id: 322, problem: relogin
+in line 1369941: user id: 2677, problem: logout without login
+in line 1381955: user id: -1, problem: invalid log entry type
+in line 1463791: user id: 1434, problem: failed login
+in line 1488075: user id: 968, problem: relogin
+in line 1516244: user id: -1, problem: invalid log entry type
+in line 1540849: user id: 1953, problem: failed login
+in line 1543141: user id: -1, problem: invalid user id
+in line 1547392: user id: 104, problem: logout without login
+in line 1562461: user id: 1179, problem: failed login
+in line 1565107: user id: -1, problem: invalid log entry type
+in line 1573183: user id: 3222, problem: logout without login
+in line 1608071: user id: 8793, problem: failed login
+in line 1615747: user id: 4716, problem: relogin
+in line 1621255: user id: -1, problem: invalid log entry type
+in line 1657756: user id: 6700, problem: relogin
+in line 1681325: user id: 817, problem: failed login
+in line 1682154: user id: 9475, problem: failed login
+in line 1690972: user id: 441, problem: logout without login
+in line 1729195: user id: 1199, problem: failed login
+in line 1740265: user id: 7661, problem: logout without login
+in line 1757439: user id: 6583, problem: logout without login
+in line 1758255: user id: 2878, problem: relogin
+in line 1771970: user id: 8437, problem: failed login
+in line 1779135: user id: 8048, problem: logout without login
+in line 1789011: user id: 1306, problem: relogin
+in line 1795014: user id: 9795, problem: logout without login
+in line 1806543: user id: -1, problem: invalid log entry type
+in line 1845192: user id: 6068, problem: failed login
+in line 1875646: user id: 4417, problem: failed login
+in line 1886451: user id: 1078, problem: logout without login
+in line 1900562: user id: -1, problem: invalid log entry type
+in line 1955886: user id: 3218, problem: relogin
+in line 1981555: user id: 1839, problem: logout without login
+in line 1997094: user id: 985, problem: failed login
+in line 2023493: user id: 9830, problem: failed login
+in line 2024922: user id: 5924, problem: failed login
+in line 2030314: user id: 1352, problem: relogin
+in line 2042048: user id: 2685, problem: relogin
+in line 2058373: user id: -1, problem: invalid log entry type
+in line 2066927: user id: 2623, problem: failed login
+in line 2088597: user id: 1466, problem: logout without login
+in line 2093794: user id: 5348, problem: failed login
+in line 2112696: user id: 5260, problem: relogin
+in line 2114559: user id: 1202, problem: logout without login
+in line 2122477: user id: 6927, problem: relogin
+in line 2129719: user id: -1, problem: invalid user id
+in line 2174953: user id: 9796, problem: failed login
+in line 2186820: user id: 3326, problem: failed login
+in line 2246172: user id: 9868, problem: failed login
+in line 2273508: user id: 6795, problem: logout without login
+in line 2286817: user id: 884, problem: failed login
+in line 2288904: user id: 4240, problem: failed login
+in line 2293313: user id: 6378, problem: logout without login
+in line 2328536: user id: 6376, problem: relogin
+in line 2333631: user id: 210, problem: relogin
+in line 2404253: user id: 1180, problem: failed login
+in line 2431062: user id: 3961, problem: logout without login
+in line 2433457: user id: 647, problem: relogin
+in line 2518550: user id: 1398, problem: relogin
+in line 2534514: user id: -1, problem: invalid log entry type
+in line 2536263: user id: 4162, problem: failed login
+in line 2546460: user id: 1933, problem: failed login
+in line 2570940: user id: 858, problem: failed login
+in line 2573399: user id: -1, problem: invalid log entry type
+in line 2628990: user id: -1, problem: invalid user id
+in line 2630605: user id: 1279, problem: relogin
+in line 2632166: user id: 4782, problem: failed login
+in line 2683020: user id: 2061, problem: relogin
+in line 2683591: user id: 8011, problem: failed login
+in line 2720157: user id: -1, problem: invalid log entry type
+in line 2776539: user id: 3837, problem: failed login
+in line 2807258: user id: 911, problem: relogin
+in line 2816777: user id: 5541, problem: failed login
+in line 2829640: user id: 3434, problem: logout without login
+in line 2850426: user id: 4202, problem: logout without login
+in line 2857747: user id: 4967, problem: logout without login
+in line 2871092: user id: 4710, problem: failed login
+in line 2901947: user id: 8077, problem: relogin
+in line 2915548: user id: 2709, problem: relogin
+in line 2917364: user id: 4952, problem: relogin
+in line 2973361: user id: 703, problem: relogin
+
+---------------------------------
+
+Task description: speed test, numbers: 987.543000, 543.330000, operation: -, iterations: 100000000
+Result: 
+269.190200 milliseconds (371.484549 million operations per second)
+---------------------------------
+
+Task description: fibonacci, number: 44
+Result: 
+701408733
+---------------------------------
+
+Task description: fibonacci, number: 30
+Result: 
+832040
+---------------------------------
+
+Task description: speed test, numbers: 9764.120000, 4324.440000, operation: /, iterations: 100000000
+Result: 
+476.336900 milliseconds (209.935447 million operations per second)
+---------------------------------
+
+Task description: fibonacci, number: 35
+Result: 
+9227465
+---------------------------------
+
+Task description: speed test, numbers: 123.430000, 987.760000, operation: +, iterations: 100000000
+Result: 
+267.189100 milliseconds (374.266765 million operations per second)
+---------------------------------
+
+Task description: fibonacci, number: 40
+Result: 
+102334155
+---------------------------------
+
+Task description: logreader, file: log4.log
+Result: 
+number of failed logins: 0
+
+---------------------------------
+
+Task description: speed test, numbers: 12.340000, 33.220000, operation: -, iterations: 300000000
+Result: 
+822.581800 milliseconds (364.705370 million operations per second)
+---------------------------------
+
+Task description: fibonacci, number: 42
+Result: 
+267914296
+---------------------------------
+
+Task description: speed test, numbers: 22543.800000, 32121.400000, operation: +, iterations: 800000000
+Result: 
+2164.674500 milliseconds (369.570575 million operations per second)
+---------------------------------
+
+Task description: speed test, numbers: 5666.700000, 32.400000, operation: /, iterations: 200000000
+Result: 
+952.673800 milliseconds (209.935447 million operations per second)
+---------------------------------
+
+Task description: logreader, file: log5.log
+Result: 
+number of failed logins: 15
+in line 2: user id: 986, problem: failed login
+in line 3: user id: 65, problem: failed login
+in line 4: user id: 305, problem: failed login
+in line 5: user id: 477, problem: logout without login
+in line 7: user id: -1, problem: invalid log entry type
+in line 9: user id: 484, problem: failed login
+in line 10: user id: 675, problem: failed login
+in line 11: user id: -1, problem: invalid log entry type
+in line 12: user id: -1, problem: invalid user id
+in line 13: user id: -1, problem: invalid log entry type
+in line 14: user id: 217, problem: logout without login
+in line 16: user id: 313, problem: failed login
+in line 17: user id: 851, problem: logout without login
+in line 18: user id: 735, problem: logout without login
+in line 20: user id: 388, problem: failed login
+in line 21: user id: 818, problem: failed login
+in line 27: user id: 163, problem: logout without login
+in line 29: user id: 851, problem: logout without login
+in line 30: user id: -1, problem: invalid log entry type
+in line 34: user id: -1, problem: invalid user id
+in line 35: user id: 695, problem: logout without login
+in line 37: user id: 818, problem: logout without login
+in line 38: user id: 277, problem: failed login
+in line 40: user id: 39, problem: failed login
+in line 42: user id: -1, problem: invalid log entry type
+in line 45: user id: 217, problem: logout without login
+in line 46: user id: -1, problem: invalid user id
+in line 48: user id: 556, problem: failed login
+in line 49: user id: 373, problem: logout without login
+in line 50: user id: 312, problem: failed login
+in line 51: user id: -1, problem: invalid log entry type
+in line 52: user id: 548, problem: failed login
+in line 53: user id: -1, problem: invalid log entry type
+in line 57: user id: 370, problem: failed login
+in line 58: user id: 9, problem: logout without login
+in line 59: user id: 57, problem: logout without login
+in line 60: user id: 128, problem: failed login
+in line 62: user id: 38, problem: stayed logged in at the end
+in line 62: user id: 55, problem: stayed logged in at the end
+in line 62: user id: 144, problem: stayed logged in at the end
+in line 62: user id: 155, problem: stayed logged in at the end
+in line 62: user id: 215, problem: stayed logged in at the end
+in line 62: user id: 307, problem: stayed logged in at the end
+in line 62: user id: 413, problem: stayed logged in at the end
+in line 62: user id: 498, problem: stayed logged in at the end
+in line 62: user id: 581, problem: stayed logged in at the end
+in line 62: user id: 612, problem: stayed logged in at the end
+in line 62: user id: 619, problem: stayed logged in at the end
+in line 62: user id: 691, problem: stayed logged in at the end
+in line 62: user id: 856, problem: stayed logged in at the end
+
+---------------------------------
+
+Task description: speed test, numbers: 1312.565400, 3443.400000, operation: *, iterations: 500000000
+Result: 
+1328.939600 milliseconds (376.239823 million operations per second)
+---------------------------------
+
+Task description: logreader, file: log6.log
+Result: 
+number of failed logins: 36
+in line 1863: user id: 2560, problem: failed login
+in line 14563: user id: 5328, problem: failed login
+in line 18538: user id: -1, problem: invalid user id
+in line 19335: user id: 32, problem: failed login
+in line 26803: user id: 5012, problem: failed login
+in line 37727: user id: 980, problem: logout without login
+in line 54983: user id: 6472, problem: relogin
+in line 55551: user id: 2497, problem: failed login
+in line 59252: user id: -1, problem: invalid user id
+in line 66368: user id: 6805, problem: logout without login
+in line 73003: user id: -1, problem: invalid log entry type
+in line 74155: user id: -1, problem: invalid log entry type
+in line 89018: user id: 1221, problem: relogin
+in line 90100: user id: 4737, problem: logout without login
+in line 90558: user id: 7196, problem: logout without login
+in line 91242: user id: -1, problem: invalid user id
+in line 93091: user id: 2282, problem: failed login
+in line 109171: user id: 1299, problem: failed login
+in line 109847: user id: 2273, problem: relogin
+in line 114879: user id: -1, problem: invalid user id
+in line 121468: user id: 5089, problem: failed login
+in line 122117: user id: -1, problem: invalid log entry type
+in line 122875: user id: 8261, problem: relogin
+in line 123296: user id: 2577, problem: logout without login
+in line 137193: user id: 1693, problem: failed login
+in line 156328: user id: 389, problem: relogin
+in line 171070: user id: -1, problem: invalid user id
+in line 172942: user id: 9682, problem: logout without login
+in line 185036: user id: 2244, problem: logout without login
+in line 185238: user id: 2094, problem: logout without login
+in line 187014: user id: -1, problem: invalid log entry type
+in line 187772: user id: 7848, problem: failed login
+in line 201327: user id: 1570, problem: failed login
+in line 207766: user id: 6518, problem: failed login
+in line 210073: user id: 4355, problem: failed login
+in line 223891: user id: 2131, problem: logout without login
+in line 230338: user id: 4413, problem: relogin
+in line 230838: user id: 5603, problem: logout without login
+in line 233546: user id: 5799, problem: failed login
+in line 234174: user id: -1, problem: invalid user id
+in line 244084: user id: 4200, problem: failed login
+in line 246855: user id: -1, problem: invalid user id
+in line 248617: user id: -1, problem: invalid user id
+in line 249068: user id: 395, problem: relogin
+in line 254013: user id: 9820, problem: logout without login
+in line 267266: user id: 5, problem: logout without login
+in line 267492: user id: -1, problem: invalid log entry type
+in line 294109: user id: 212, problem: logout without login
+in line 308516: user id: -1, problem: invalid log entry type
+in line 308881: user id: 9297, problem: failed login
+in line 311042: user id: 5101, problem: relogin
+in line 323711: user id: 9744, problem: relogin
+in line 326143: user id: -1, problem: invalid log entry type
+in line 330175: user id: 1243, problem: failed login
+in line 335762: user id: 6276, problem: relogin
+in line 337648: user id: 9157, problem: relogin
+in line 339049: user id: 6955, problem: logout without login
+in line 339958: user id: 976, problem: logout without login
+in line 361376: user id: 7729, problem: logout without login
+in line 368970: user id: 6616, problem: logout without login
+in line 378781: user id: -1, problem: invalid log entry type
+in line 380045: user id: -1, problem: invalid log entry type
+in line 389076: user id: -1, problem: invalid log entry type
+in line 426835: user id: 165, problem: failed login
+in line 442640: user id: 8182, problem: failed login
+in line 443602: user id: -1, problem: invalid log entry type
+in line 472367: user id: 5823, problem: logout without login
+in line 477835: user id: 7139, problem: failed login
+in line 480520: user id: 1376, problem: failed login
+in line 488212: user id: 380, problem: failed login
+in line 500379: user id: -1, problem: invalid user id
+in line 501874: user id: -1, problem: invalid log entry type
+in line 512464: user id: -1, problem: invalid log entry type
+in line 533010: user id: 3347, problem: failed login
+in line 535594: user id: 9212, problem: failed login
+in line 538871: user id: 5914, problem: failed login
+in line 546266: user id: -1, problem: invalid user id
+in line 553943: user id: 7779, problem: failed login
+in line 590093: user id: -1, problem: invalid user id
+in line 595196: user id: 757, problem: failed login
+in line 603089: user id: 6014, problem: failed login
+in line 626003: user id: 3824, problem: logout without login
+in line 634252: user id: 7388, problem: failed login
+in line 636437: user id: 4268, problem: failed login
+in line 637328: user id: 7587, problem: relogin
+in line 637934: user id: 5864, problem: relogin
+in line 638672: user id: 5155, problem: failed login
+in line 651453: user id: -1, problem: invalid log entry type
+in line 653397: user id: 9118, problem: failed login
+in line 659006: user id: 4406, problem: failed login
+in line 668145: user id: 4092, problem: failed login
+in line 669711: user id: 207, problem: relogin
+in line 676509: user id: 182, problem: relogin
+in line 677664: user id: 897, problem: logout without login
+in line 683264: user id: 5107, problem: failed login
+in line 686980: user id: 7335, problem: failed login
+
+---------------------------------

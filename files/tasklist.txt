@@ -1,0 +1,23 @@
+readlog log1.log
+readlog log2.log
+fibonacci 38
+fibonacci 45
+speedtest 1234.5678 * 43.56 100000000
+readlog nosuchlog.log
+readlog log3.log
+speedtest 987.543 - 543.33 100000000
+fibonacci 44
+fibonacci 30
+speedtest 9764.12 / 4324.44 100000000
+fibonacci 35
+speedtest 123.43 + 987.76 100000000
+fibonacci 40
+readlog log4.log
+speedtest 12.34 - 33.22 300000000
+fibonacci 42
+speedtest 22543.8 + 32121.4 800000000
+speedtest 5666.7 / 32.4 200000000
+readlog log5.log
+speedtest 1312.5654 * 3443.4 500000000
+readlog log6.log
+*

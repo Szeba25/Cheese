@@ -1,0 +1,155 @@
+Executing on 3 number of threads
+
+Sat Oct 21 17:26:00 2017
+Task started on thread 0: "logreader, file: log1.log"
+
+Sat Oct 21 17:26:00 2017
+Task started on thread 1: "logreader, file: log2.log"
+
+Sat Oct 21 17:26:00 2017
+Task started on thread 2: "fibonacci, number: 38"
+
+Sat Oct 21 17:26:00 2017
+Task ended on thread 0: "logreader, file: log1.log"
+Execution time: 6003800 nanoseconds
+
+Sat Oct 21 17:26:00 2017
+Task started on thread 0: "fibonacci, number: 45"
+
+Sat Oct 21 17:26:01 2017
+Task ended on thread 1: "logreader, file: log2.log"
+Execution time: 295207700 nanoseconds
+
+Sat Oct 21 17:26:01 2017
+Task started on thread 1: "speed test, numbers: 1234.567800, 43.560000, operation: *, iterations: 100000000"
+
+Sat Oct 21 17:26:01 2017
+Task ended on thread 1: "speed test, numbers: 1234.567800, 43.560000, operation: *, iterations: 100000000"
+Execution time: 264186400 nanoseconds
+
+Sat Oct 21 17:26:01 2017
+Task started on thread 1: "logreader, file: nosuchlog.log"
+
+Sat Oct 21 17:26:01 2017
+Task ended on thread 1: "logreader, file: nosuchlog.log"
+Execution time: 0 nanoseconds
+
+Sat Oct 21 17:26:01 2017
+Task started on thread 1: "logreader, file: log3.log"
+
+Sat Oct 21 17:26:01 2017
+Task ended on thread 2: "fibonacci, number: 38"
+Execution time: 613432800 nanoseconds
+
+Sat Oct 21 17:26:01 2017
+Task started on thread 2: "speed test, numbers: 987.543000, 543.330000, operation: -, iterations: 100000000"
+
+Sat Oct 21 17:26:01 2017
+Task ended on thread 2: "speed test, numbers: 987.543000, 543.330000, operation: -, iterations: 100000000"
+Execution time: 269190200 nanoseconds
+
+Sat Oct 21 17:26:01 2017
+Task started on thread 2: "fibonacci, number: 44"
+
+Sat Oct 21 17:26:10 2017
+Task ended on thread 1: "logreader, file: log3.log"
+Execution time: 9386639000 nanoseconds
+
+Sat Oct 21 17:26:10 2017
+Task started on thread 1: "fibonacci, number: 30"
+
+Sat Oct 21 17:26:10 2017
+Task ended on thread 1: "fibonacci, number: 30"
+Execution time: 13009000 nanoseconds
+
+Sat Oct 21 17:26:10 2017
+Task started on thread 1: "speed test, numbers: 9764.120000, 4324.440000, operation: /, iterations: 100000000"
+
+Sat Oct 21 17:26:11 2017
+Task ended on thread 1: "speed test, numbers: 9764.120000, 4324.440000, operation: /, iterations: 100000000"
+Execution time: 476336900 nanoseconds
+
+Sat Oct 21 17:26:11 2017
+Task started on thread 1: "fibonacci, number: 35"
+
+Sat Oct 21 17:26:11 2017
+Task ended on thread 1: "fibonacci, number: 35"
+Execution time: 145102500 nanoseconds
+
+Sat Oct 21 17:26:11 2017
+Task started on thread 1: "speed test, numbers: 123.430000, 987.760000, operation: +, iterations: 100000000"
+
+Sat Oct 21 17:26:11 2017
+Task ended on thread 1: "speed test, numbers: 123.430000, 987.760000, operation: +, iterations: 100000000"
+Execution time: 267189100 nanoseconds
+
+Sat Oct 21 17:26:11 2017
+Task started on thread 1: "fibonacci, number: 40"
+
+Sat Oct 21 17:26:12 2017
+Task ended on thread 2: "fibonacci, number: 44"
+Execution time: 10989772500 nanoseconds
+
+Sat Oct 21 17:26:12 2017
+Task started on thread 2: "logreader, file: log4.log"
+
+Sat Oct 21 17:26:13 2017
+Task ended on thread 1: "fibonacci, number: 40"
+Execution time: 1605134800 nanoseconds
+
+Sat Oct 21 17:26:13 2017
+Task started on thread 1: "speed test, numbers: 12.340000, 33.220000, operation: -, iterations: 300000000"
+
+Sat Oct 21 17:26:13 2017
+Task ended on thread 2: "logreader, file: log4.log"
+Execution time: 713504400 nanoseconds
+
+Sat Oct 21 17:26:13 2017
+Task started on thread 2: "fibonacci, number: 42"
+
+Sat Oct 21 17:26:14 2017
+Task ended on thread 1: "speed test, numbers: 12.340000, 33.220000, operation: -, iterations: 300000000"
+Execution time: 822581800 nanoseconds
+
+Sat Oct 21 17:26:14 2017
+Task started on thread 1: "speed test, numbers: 22543.800000, 32121.400000, operation: +, iterations: 800000000"
+
+Sat Oct 21 17:26:16 2017
+Task ended on thread 1: "speed test, numbers: 22543.800000, 32121.400000, operation: +, iterations: 800000000"
+Execution time: 2164674500 nanoseconds
+
+Sat Oct 21 17:26:16 2017
+Task started on thread 1: "speed test, numbers: 5666.700000, 32.400000, operation: /, iterations: 200000000"
+
+Sat Oct 21 17:26:17 2017
+Task ended on thread 1: "speed test, numbers: 5666.700000, 32.400000, operation: /, iterations: 200000000"
+Execution time: 952673800 nanoseconds
+
+Sat Oct 21 17:26:17 2017
+Task started on thread 1: "logreader, file: log5.log"
+
+Sat Oct 21 17:26:17 2017
+Task ended on thread 1: "logreader, file: log5.log"
+Execution time: 18013100 nanoseconds
+
+Sat Oct 21 17:26:17 2017
+Task started on thread 1: "speed test, numbers: 1312.565400, 3443.400000, operation: *, iterations: 500000000"
+
+Sat Oct 21 17:26:17 2017
+Task ended on thread 2: "fibonacci, number: 42"
+Execution time: 4211122100 nanoseconds
+
+Sat Oct 21 17:26:17 2017
+Task started on thread 2: "logreader, file: log6.log"
+
+Sat Oct 21 17:26:18 2017
+Task ended on thread 1: "speed test, numbers: 1312.565400, 3443.400000, operation: *, iterations: 500000000"
+Execution time: 1328939600 nanoseconds
+
+Sat Oct 21 17:26:18 2017
+Task ended on thread 0: "fibonacci, number: 45"
+Execution time: 17792728500 nanoseconds
+
+Sat Oct 21 17:26:19 2017
+Task ended on thread 2: "logreader, file: log6.log"
+Execution time: 2047448500 nanoseconds

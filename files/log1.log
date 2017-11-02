@@ -1,0 +1,20 @@
+userlogin 13
+userlogin 15
+userlogout 24
+userlogin 19
+failedlogin 17
+userlogout 15
+userlogin 17
+invalid 16
+
+userlogin 13
+userlogin 20
+userlogout
+userlogout 19
+userlogin notanumber
+userlogout 13
+userlogin 5
+
+userlogout 13
+failedlogin 25
+userlogout 20
