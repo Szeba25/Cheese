@@ -31,19 +31,14 @@ string LogReaderPerformer::getResult() const
         ss << "number of failed logins: " << logReader->getFailedLogins() << endl;
 
         list<LogReader::LogEntryError> log = logReader->getEntryErrors();
-        int listSize = log.size();
-        int idx = 0;
+
         for (const LogReader::LogEntryError &e : log)
         {
             ss << "in line " << e.line << ": user id: " <<
-                  e.user_id << ", problem: " << LogReader::errorTypeToString(e.error_type);
-            if (idx != listSize-1) {
-                ss << endl;
-            }
-            idx++;
+                  e.user_id << ", problem: " << LogReader::errorTypeToString(e.error_type) << endl;
         }
         return ss.str();
     } else {
-        return string("Cannot read file");
+        return string("Cannot read file\n");
     }
 }

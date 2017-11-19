@@ -43,7 +43,7 @@ void LogReader::evaluateLine(int line, const string &line_data, set<int> &logins
             failed_logins++;
         } else {
             // Invalid entry
-            entry_errors.push_back(LogEntryError(line, id, LET_INVALID_ENTRY_TYPE));
+            entry_errors.push_back(LogEntryError(line, -1, LET_INVALID_ENTRY_TYPE));
         }
 
     }

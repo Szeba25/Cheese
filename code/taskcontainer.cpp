@@ -53,3 +53,17 @@ TaskPerformerInterface *TaskContainer::getNextTask()
         return *it;
     }
 }
+
+void TaskContainer::saveOutput()
+{
+    ofstream file("output.txt");
+    if (file.is_open()) {
+        for (TaskPerformerInterface*& task : tasks) {
+            file << endl << "Task description: " << task->getDescription() << endl;
+            file << "Result:" << endl;
+            file << task->getResult() << endl;
+            file << "---------------------------------" << endl;
+        }
+    }
+    file.close();
+}

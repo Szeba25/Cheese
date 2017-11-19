@@ -19,6 +19,7 @@ public:
     ~TaskContainer();
 
     TaskPerformerInterface* getNextTask();
+    void saveOutput();
 private:
     list<TaskPerformerInterface*> tasks;
     list<TaskPerformerInterface*>::iterator currentTask_it;

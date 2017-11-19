@@ -14,7 +14,8 @@ SOURCES += main.cpp \
     speedtesterperformer.cpp \
     logreaderperformer.cpp \
     taskcontainer.cpp \
-    worker.cpp
+    worker.cpp \
+    taskobserver.cpp
 
 HEADERS += \
     taskperformerinterface.h \
@@ -25,4 +26,5 @@ HEADERS += \
     speedtesterperformer.h \
     logreaderperformer.h \
     taskcontainer.h \
-    worker.h
+    worker.h \
+    taskobserver.h
