@@ -9,10 +9,16 @@ SOURCES += main.cpp \
     taskperformerinterface.cpp \
     speedtester.cpp \
     fibonacci.cpp \
-    logreader.cpp
+    logreader.cpp \
+    fibonacciperformer.cpp \
+    speedtesterperformer.cpp \
+    logreaderperformer.cpp
 
 HEADERS += \
     taskperformerinterface.h \
     speedtester.h \
     fibonacci.h \
-    logreader.h
+    logreader.h \
+    fibonacciperformer.h \
+    speedtesterperformer.h \
+    logreaderperformer.h

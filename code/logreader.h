@@ -7,7 +7,6 @@
 
 #include <fstream>
 #include <string>
-#include <map>
 #include <list>
 #include <sstream>
 
