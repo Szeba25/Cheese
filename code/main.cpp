@@ -35,7 +35,7 @@ int main()
 
 	{
 		LogReader reader;
-		reader.readLog("log1.log");
+        reader.readLog("log1.log");
 		cout << "number of failed logins: " << reader.getFailedLogins() << endl;
 		const list<LogReader::LogEntryError> &errors=reader.getEntryErrors();
 		for (const LogReader::LogEntryError &e : errors)

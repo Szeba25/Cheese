@@ -1,6 +1,10 @@
 #ifndef LOGREADER_H
 #define LOGREADER_H
 
+#include <iostream>
+#include <set>
+#include <exception>
+
 #include <fstream>
 #include <string>
 #include <map>
@@ -36,6 +40,9 @@ public:
 private:
 	unsigned int failed_logins=0; // Number of failed logins
 	list<LogEntryError> entry_errors; // List of errors
+
+    void evaluateLine(int line, const string &line_data, set<int>& logins); // New: Evaluate a line of data
+    void checkForLoggedInUsers(int line, set<int>& logins); // New: Add an error log after all logged in users
 public:
 	unsigned int getFailedLogins() const;
 	const list<LogEntryError> &getEntryErrors() const;
