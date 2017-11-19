@@ -3,14 +3,24 @@
 #include "fibonacci.h"
 #include "logreader.h"
 #include "taskperformerinterface.h"
-#include "fibonacciperformer.h"
-#include "speedtesterperformer.h"
-#include "logreaderperformer.h"
+#include "taskcontainer.h"
+#include "worker.h"
 
 using namespace std;
 
 int main()
 {
+    TaskContainer taskContainer;
+    Worker worker1;
+
+    TaskPerformerInterface* task = taskContainer.getNextTask();
+    while (task != nullptr) {
+        cout << "Task description: " << task->getDescription() << endl;
+        worker1.setTask(task);
+        worker1.doTask();
+        task = taskContainer.getNextTask();
+    }
+
 //	{
 //		SpeedTester tester(1234.33, 43.2, '+', 100000000);
 //		chrono::duration<double, milli> dur=tester.test();
@@ -74,23 +84,23 @@ int main()
 //        delete task;
 //    }
 
-    {
-        TaskPerformerInterface *task=new LogReaderPerformer("log1.log");
-        cout << task->getDescription() << endl; // logreader, file: log1.log
-        task->execute();
-        cout << task->getResult() << endl;
-        delete task;
-//		number of failed logins: 2
-//		in line 3: user id: 24, problem: logout without login
-//		in line 5: user id: 17, problem: failed login
-//		in line 8: user id: -1, problem: invalid log entry type
-//		in line 10: user id: 13, problem: relogin
-//		in line 12: user id: -1, problem: invalid user id
-//		in line 14: user id: -1, problem: invalid user id
-//		in line 18: user id: 13, problem: logout without login
-//		in line 19: user id: 25, problem: failed login
-//		in line 22: user id: 5, problem: stayed logged in at the end
-//		in line 22: user id: 17, problem: stayed logged in at the end
-    }
+//    {
+//        TaskPerformerInterface *task=new LogReaderPerformer("log1.log");
+//        cout << task->getDescription() << endl; // logreader, file: log1.log
+//        task->execute();
+//        cout << task->getResult() << endl;
+//        delete task;
+////		number of failed logins: 2
+////		in line 3: user id: 24, problem: logout without login
+////		in line 5: user id: 17, problem: failed login
+////		in line 8: user id: -1, problem: invalid log entry type
+////		in line 10: user id: 13, problem: relogin
+////		in line 12: user id: -1, problem: invalid user id
+////		in line 14: user id: -1, problem: invalid user id
+////		in line 18: user id: 13, problem: logout without login
+////		in line 19: user id: 25, problem: failed login
+////		in line 22: user id: 5, problem: stayed logged in at the end
+////		in line 22: user id: 17, problem: stayed logged in at the end
+//    }
 	return 0;
 }

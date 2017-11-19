@@ -16,6 +16,7 @@ public:
     virtual string getResult() const;
 private:
     string fileName;
+    bool fileExists;
     LogReader* logReader;
 };
 
