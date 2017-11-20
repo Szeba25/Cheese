@@ -15,7 +15,7 @@ public:
     static TaskObserver& getInstance();
 
     void startTask(int id, TaskPerformerInterface* task);
-    void endTask(int id, TaskPerformerInterface* task, chrono::duration<long long int, std::nano> time);
+    void endTask(int id, TaskPerformerInterface* task, long long int time);
 private:
     TaskObserver();
     TaskObserver(const TaskObserver &other);

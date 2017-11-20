@@ -52,7 +52,7 @@ void Worker::work()
             TaskObserver::getInstance().startTask(id, task);
             task->execute();
             auto end = chrono::high_resolution_clock::now();
-            TaskObserver::getInstance().endTask(id, task, end-begin);
+            TaskObserver::getInstance().endTask(id, task, (end-begin).count());
             setTask(nullptr);
         }
     }
