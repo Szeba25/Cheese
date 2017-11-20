@@ -16,12 +16,12 @@ void TaskObserver::startTask(int id, TaskPerformerInterface* task)
     mtx.unlock();
 }
 
-void TaskObserver::endTask(int id, TaskPerformerInterface* task, long long int time)
+void TaskObserver::endTask(int id, TaskPerformerInterface* task, chrono::duration<long long int, nano> elapsed)
 {
     mtx.lock();
         printTime();
         cout << "Task ended on thread: " << id << ": " << task->getDescription() << endl;
-        cout << "Execution time: " << time << " nanoseconds" << endl << endl;
+        cout << "Execution time: " << elapsed.count() << " nanoseconds" << endl << endl;
     mtx.unlock();
 }
 

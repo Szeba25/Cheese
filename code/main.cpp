@@ -27,6 +27,7 @@ int main()
 
     cout << "Executing on " << maxThreads << " number of threads" << endl << endl;
     for (Worker*& w : workers) {
+        w->reg(&TaskObserver::getInstance());
         w->start();
     }
 

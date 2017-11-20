@@ -16,6 +16,7 @@ public:
     Worker(int id);
     ~Worker();
 
+    void reg(TaskObserver* observer);
     void start();
     void join();
     void setTask(TaskPerformerInterface* task); // Function guarded by mutex
@@ -29,6 +30,7 @@ private:
     bool killed; // Guarded by mutex
 
     mutex mtx;
+    TaskObserver* taskObserver;
 
     void work();
     void kill(); // Function guarded by mutex
