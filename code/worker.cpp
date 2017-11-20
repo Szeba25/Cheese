@@ -53,8 +53,8 @@ void Worker::work()
 {
     while (!isKilled()) {
         if (isBusy()) {
-            chrono::system_clock::time_point begin = chrono::high_resolution_clock::now();
             taskObserver->startTask(id, task);
+            chrono::system_clock::time_point begin = chrono::high_resolution_clock::now();
             task->execute();
             chrono::system_clock::time_point end = chrono::high_resolution_clock::now();
             chrono::duration<long long int, std::nano> elapsed = (end-begin);
